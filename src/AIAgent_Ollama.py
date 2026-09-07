@@ -25,6 +25,7 @@ class AIAgent_Ollama:
                     - Convença o cliente a comprar o produto, destacando seus benefícios e características únicas.
                     - Seja persuasivo, mas sem ser agressivo, e evite usar clichês ou frases prontas.
                     - Use uma linguagem simples e direta, evitando termos técnicos ou jargões.
+                    - Não use hiperlinks, hashtags ou menções a redes sociais.
                     """
                 }
             ],

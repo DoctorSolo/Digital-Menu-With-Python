@@ -120,12 +120,12 @@ class GraphicInterface:
         output = ctk.CTkLabel(
             frame, 
             text=text,
-            wraplength=500,
-            font=("Arial", 15, "bold"),
+            wraplength=600,
+            font=("Arial", 20, "bold"),
             text_color="#FFFFFF",
             fg_color="#D559BF"
             )
-        output.pack(pady=10, padx=10, fill="x", expand=False)
+        output.pack (fill="x", expand=False)
         return output
     # END
     
@@ -159,7 +159,7 @@ class GraphicInterface:
                 height       = 70,                      # Configure button height
                 fg_color     = "#F84DD8",               # Configure button color
                 # Define a command for each button
-                command      = lambda: print(self.__if_button_clicked(out_container, self.__message(option_data['name'], option_data['description'], option_data['allergies'], option_data['price'])))
+                command      = lambda n=option_data['name'], d=option_data['description'], a=option_data['allergies'], p=option_data['price']: self.__if_button_clicked(out_container, self.__message(n, d, a, p))
                 )
                 
             # keeps the image on button and put it on grid
@@ -169,12 +169,14 @@ class GraphicInterface:
     
     
     def __message(self, name: str, description: str, allergies: str, price: float) -> str:
-        return f"""
+        string = f"""
             Nome: {name}\n
             Descrição: {description}\n
             Alergias: {allergies}\n
             Preço: R${price:.2f}
         """
+        print(string)
+        return string
     
         
     def __if_button_clicked(self, out_container, serch):
