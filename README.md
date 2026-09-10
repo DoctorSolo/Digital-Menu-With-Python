@@ -62,6 +62,10 @@ This project offers two usage options:
 
 <img src=".github/assets/Screenshot.png"/>
 
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ##
 
 <h3 align="center">Credits</h3>
