@@ -1,7 +1,7 @@
 <h1 align="center">Digital Menu</h1>
 
 <p align="center">
-  This aplication has many options of breakfast and AI features
+  This project stems from a long-held idea of ​​mine to create an intuitive digital menu. To achieve this, I built a simple menu and integrated AI into it.
 </p>
 
 <h3 align="center">Setting Up the Environment</h3>
@@ -54,18 +54,11 @@ git clone git@github.com:DoctorSolo/Digital-Menu-With-Python.git
 
 This project offers two usage options:
 
-- **Graphical Interface (GUI):** Run the `main.py` file to launch the application. You will be prompted to enter latitude and longitude coordinates. After clicking **Enter**, the location information will be displayed in the main window, and a separate window will open showing the map of the region.
-
-- **Command Line (CLI):** [Add CLI instructions here if applicable]
+- **Graphical Interface (GUI):** Run the `run.py` file to launch the application.
 
 ##
 
 <h3 align="center">Usage Example</h3>
-
-**Input Coordinates:** `48.858844, 2.294351`
-
-**Output:**  
-`Paris - IDF, France`
 
 <img src=".github/assets/Screenshot.png"/>
 
