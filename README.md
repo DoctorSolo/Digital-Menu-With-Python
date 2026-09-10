@@ -1,30 +1,8 @@
-<h1 align="center">Geocode Application</h1>
+<h1 align="center">Digital Menu</h1>
 
 <p align="center">
-  This application returns a geographic location to the user based on provided coordinates. Users can utilize it to check nearby commercial locations, tourist attractions, and routes.
+  This aplication has many options of breakfast and AI features
 </p>
-
-##
-
-<h3 align="center">Prerequisites</h3>
-
-Before running the application, some configuration is necessary:
-
-- A **Geocode API** from <a href="https://console.cloud.google.com/">Google Cloud</a>
-- A **Gemini API Key** (optional) or a local model via <a href="https://ollama.com/library">Ollama</a>
-
-After obtaining your credentials, create a `config.py` file with the following information:
-
-```python
-GEOCODING_API_KEY = "YOUR_GEOCODE_API_KEY_HERE"
-GENAI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # Optional if using Ollama
-```
-
-If you prefer to use an Ollama model, you can change the model configuration in `AIAgent_Config.py`.
-
-> ⚠️ If you prefer a version **without** an API, try this <a href="https://github.com/DoctorSolo/Geocode-Aplication">**repository**</a>
-
-##
 
 <h3 align="center">Setting Up the Environment</h3>
 
@@ -61,13 +39,13 @@ If you have Git installed, use one of the following commands to clone the projec
 **HTTPS:**
 
 ```bash
-git clone https://github.com/DoctorSolo/Geocode-Aplication-Google-Cloud.git
+git clone https://github.com/DoctorSolo/Digital-Menu-With-Python.git
 ```
 
 **SSH:**
 
 ```bash
-git clone git@github.com:DoctorSolo/Geocode-Aplication-Google-Cloud.git
+git clone git@github.com:DoctorSolo/Digital-Menu-With-Python.git
 ```
 
 ##
